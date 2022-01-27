@@ -1,0 +1,26 @@
+{
+    "name": "sentech/payment-webxpay",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Sentech\\PaymentWebxpay\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nuwan",
+            "email": "nuwanchamp02@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^6.24"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sentech\\PaymentWebxpay\\WebxpayServiceProvider"
+            ],
+            "aliases": {}
+        }
+    }
+}
